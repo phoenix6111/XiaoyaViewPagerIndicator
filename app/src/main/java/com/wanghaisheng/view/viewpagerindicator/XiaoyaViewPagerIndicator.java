@@ -27,6 +27,9 @@ import java.util.List;
  * Email: 1392100700@qq.com
  */
 
+/**
+ * 实现原理：继承自LinnerLayout，在hight的tab横向中心处绘制三角形，根据与ViewPager的联动，scrollTo移动三角形的位置
+ */
 public class XiaoyaViewPagerIndicator extends LinearLayout {
 
     //绘制三角形的画笔
